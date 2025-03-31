@@ -1,9 +1,14 @@
 --- # Only the main Sass file needs front matter (the dashes are enough) --- $content-width: 1400px !default; // Increased from 1000px
 
+
+$content-width: 2000px !default; // Increase this value
+$on-palm: 600px !default;
+$on-laptop: 1800px !default; // Increase this value
+
 @import "minima";
 
 .container {
-    max-width: 1600px; // Added max-width
+    max-width: 1800px; // Added max-width
     margin: 0 auto; // Center the container
     display: flex;
     flex-wrap: wrap;
