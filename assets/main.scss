@@ -1,49 +1,69 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- $content-width: 2000px !default; // Increase this value
+--- --- // Override minima defaults before import
+$content-width: 2400px !default;
 $on-palm: 600px !default;
-$on-laptop: 2000px !default; // Increase this value
+$on-laptop: 2400px !default;
 
 @import "minima";
 
-// Add custom styles for main content
-.page-content {
-    padding: 30px 0;
-    flex: 1;
-    width: 90%; // Use percentage for responsive width
-    max-width: 2400px; // Set maximum width
-    margin: 0 auto;
-}
+// ...existing wrapper and page-content styles...
 
-p {
-    max-width: 2000px; // Increase paragraph width
-    margin: 0 auto;
-    line-height: 1.6;
-    font-size: 16px;
-}
-
-.page-heading+p {
-    // Target paragraphs after headings
-    width: 90%;
-    margin: 20px auto;
-}
-
-ul {
-    max-width: 2000px; // Match paragraph width
-    margin: 20px auto;
-    padding-left: 40px;
+.custom-col {
+    width: 20%;
 }
 
 .container {
-    max-width: 1400px; // Added max-width
-    margin: 0 auto; // Center the container
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 0 20px; // Added padding for better spacing
 }
 
 .card {
-    flex: 1 1 calc(25% - 16px);
-    min-width: 280px; // Added min-width to prevent cards from getting too small
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 350px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+
+    img {
+        border-radius: 12px;
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        margin-right: 16px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .position {
+            font-size: 14px;
+            color: #666;
+            margin: 4px 0;
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            color: #1976d2;
+
+            svg {
+                width: 24px;
+                height: 24px;
+                margin-right: 8px;
+            }
+        }
+    }
 }
