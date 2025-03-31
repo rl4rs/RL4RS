@@ -3,12 +3,44 @@ $content-width: 2400px !default;
 $on-palm: 600px !default;
 $on-laptop: 2400px !default;
 
+// Import minima after setting variables
 @import "minima";
 
-// ...existing wrapper and page-content styles...
+// Wrapper override
+.wrapper {
+    max-width: 2400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
-.custom-col {
-    width: 20%;
+.page-content {
+    padding: 30px 0;
+    flex: 1;
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+}
+
+p {
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.page-heading+p {
+    width: 100%;
+    margin: 20px auto;
+}
+
+ul {
+    width: 100%;
+    max-width: 2400px;
+    margin: 20px auto;
+    padding-left: 40px;
 }
 
 .container {
@@ -16,54 +48,15 @@ $on-laptop: 2400px !default;
     max-width: 2400px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
 }
 
 .card {
-    display: flex;
-    align-items: center;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 16px;
-    width: 350px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-
-    img {
-        border-radius: 12px;
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        margin-right: 16px;
-    }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-
-        .name {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 0;
-        }
-
-        .position {
-            font-size: 14px;
-            color: #666;
-            margin: 4px 0;
-        }
-
-        .icon {
-            display: flex;
-            align-items: center;
-            color: #1976d2;
-
-            svg {
-                width: 24px;
-                height: 24px;
-                margin-right: 8px;
-            }
-        }
-    }
+    flex: 1 1 300px;
+    min-width: 300px;
+    max-width: 400px;
+    box-sizing: border-box;
 }
