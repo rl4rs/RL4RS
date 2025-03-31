@@ -1,20 +1,19 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- $content-width: 1000px !default;
+--- # Only the main Sass file needs front matter (the dashes are enough) --- $content-width: 1400px !default; // Increased from 1000px
 
 @import "minima";
 
 .container {
+    max-width: 1400px; // Added max-width
+    margin: 0 auto; // Center the container
     display: flex;
     flex-wrap: wrap;
-    /* Prevents overflow */
     justify-content: space-between;
-    /* Adjusts spacing between cards */
     gap: 16px;
-    /* Adds spacing between cards */
+    padding: 0 20px; // Added padding for better spacing
 }
 
 .card {
     flex: 1 1 calc(25% - 16px);
-    /* Adjusts card width to fit 4 per row */
+    min-width: 280px; // Added min-width to prevent cards from getting too small
     box-sizing: border-box;
-    /* Ensures padding and border are included in width */
 }
