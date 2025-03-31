@@ -244,25 +244,27 @@ layout: base
 
 </div> -->
 
+
+
 <div>
     <h1 class="page-heading">Organizers</h1>
+</div>
 
+<div class="container">
     {% assign orgs = site.orgs %}
-
-    <div class="footer-col-wrapper">
-        {%- for person in orgs -%}
-
-
-        <div class="footer-col" style="padding-right: 60px;">
-            <center>
-                <img src="{{ person.photo }}" width="128" height="128"></br>
-                <b><a href="{{ person.profile }}">{{ person.name }}</a></b>
-                <!-- <p>{{ person.position }} </br> {{ person.affiliation }}</p> -->
-                <p>{{ person.affiliation }}</p>
-            </center>
+    {%- for person in orgs -%}
+    <div class="card">
+        <img src="{{ person.photo }}" alt="{{ person.name }}">
+        <div class="info">
+            <p class="name">{{ person.name }}</p>
+            {% if person.position %}
+            <p class="position">{{ person.position }}</p>
+            {% endif %}
+            <p class="position">{{ person.affiliation }}</p>
+            {% if person.profile %}
+            <a href="{{ person.profile }}" target="_blank">Website</a>
+            {% endif %}
         </div>
-
-        {%- endfor -%}
     </div>
-
+    {%- endfor -%}
 </div>
