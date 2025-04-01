@@ -6,13 +6,28 @@ $on-laptop: 2400px !default;
 // Import minima after setting variables
 @import "minima";
 
-// Wrapper override
 .wrapper {
-    max-width: 2400px;
+    max-width: 2400px !important;
     margin-right: auto;
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+// Remove any inline styles from HTML that set width
+div[style*="width"] {
+    width: 100% !important;
+    max-width: 2400px !important;
 }
 
 .page-content {
@@ -48,16 +63,6 @@ ul {
     padding-left: 40px;
 }
 
-.container {
-    width: 100%;
-    max-width: 2400px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px 40px;
-}
 
 .card {
     flex: 0 1 400px;
