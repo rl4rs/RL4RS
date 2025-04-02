@@ -102,7 +102,7 @@ permalink: /speakers/
                class="speaker-image"/>
         </td>
         <td class="speaker-bio">
-          <p><b>Jorge Montalvo</b>: is a Senior Research Scientist at Amazon, leading the Personalization Science team for Amazon's Supply Chain Optimization Technologies (SCOT) organization. His research focuses on developing reinforcement learning algorithms and optimization methods for large scale supply chain problems. Prior to joining Amazon, Jorge obtained his PhD in Operations Research from Columbia University, where he worked on theoretical and computational aspects of optimization under uncertainty.</p>
+          <p><b>Jorge Montalvo</b>: .</p>
         </td>
       </tr>
     </table>
