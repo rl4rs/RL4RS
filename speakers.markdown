@@ -41,7 +41,7 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/pierre-Luc_Bacon.jpeg?raw=true" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/pierre-Luc_Bacon.jpeg?raw=true" 
                alt="Pierre-Luc Bacon" 
                class="speaker-image"/>
         </td>
@@ -55,7 +55,7 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/Martin_Riedmiller.png?raw=true" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/Martin_Riedmiller.png?raw=true" 
                alt="Martin Riedmiller" 
                class="speaker-image"/>
         </td>
@@ -69,7 +69,7 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/martha_white.jpg?raw=true" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/martha_white.jpg?raw=true" 
                alt="Martha White" 
                class="speaker-image"/>
         </td>
@@ -83,7 +83,7 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/Akhil_Bagaria.jpeg?raw=true" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/Akhil_Bagaria.jpeg?raw=true" 
                alt="Akhil Bagaria" 
                class="speaker-image"/>
         </td>
@@ -97,7 +97,7 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/Jorge_Montalvo_Arvizu.jpeg?raw=true" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/Jorge_Montalvo_Arvizu.jpeg?raw=true" 
                alt="Jorge Montalvo" 
                class="speaker-image"/>
         </td>
