@@ -17,8 +17,8 @@ permalink: /speakers/
 }
 
 .speaker-image {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -29,13 +29,18 @@ permalink: /speakers/
     line-height: 1.6;
     padding-left: 30px;
 }
+.speaker-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 </style>
 
-<ol>
+<ul class="speaker-list">
   <li>
     <table class="speaker-table">
       <tr>
-        <td style="width: 400px;">
+        <td style="width: 200px;">
           <img src="https://github.com/hnekoeiq/RL4RS/blob/main/assets/images/pierre-Luc_Bacon.jpeg?raw=true" 
                alt="Pierre-Luc Bacon" 
                class="speaker-image"/>
@@ -102,4 +107,4 @@ permalink: /speakers/
       </tr>
     </table>
   </li>
-</ol>
+</ul>
