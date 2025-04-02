@@ -37,7 +37,7 @@ Insightful experiences include observations, lessons learned, and best practices
 
 ## Specifications and Template
 
-We accept contributions ranging from **2 to 8 pages** (excluding references) to accommodate different types of work. Please follow the **RLC submission format** available at **[ADD LINK TO TEMPLATE]**. The cover page is not mandatory.
+We accept contributions ranging from **2 to 8 pages** (excluding references) to accommodate different types of work. Please follow the **RLC submission format** available at **[here](https://www.overleaf.com/project/6743507cd091a316b88ebd68)**. The cover page is not mandatory.
 
 ---
 
