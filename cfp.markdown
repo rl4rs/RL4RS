@@ -4,36 +4,62 @@ title: Call For Papers
 permalink: /call_for_paper/
 ---
 
-We invite submissions of three types: 
-1. Position or opinions papers on the topic of workshop (<=4 pages),
-2. Ongoing and unpublished work as extended abstracts (<=4 pages) `(under review NeurIPS submissions are allowed in this track)`,
-3. Novel research focuses on the various aspects of responsible design of modality-specific and multimodal systems (long papers <=9 pages).
+## Specific Topics
 
+We invite submissions of contributions, including insightful experiences, reviews, analyses, and new methods, related to deploying reinforcement learning (RL) in industrial, societal, and/or critical systems. Submissions may address, but are not limited to, the following key questions:
 
-# Submission site: [https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/RBFM](https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/RBFM)
-# Latex Style: <a href="../assets/NeurIPS_Workshop_RBFM_2024.zip"> Workshop Template</a>
-Note: NeurIPS checklist is not mendatory and would not be counted towards the revewing process. However, we would appreciate the having one.
+- **When should RL be used for such systems, and why?** What problem characteristics make RL more suitable than other approaches? Considerations may include problem assumptions, mathematical properties, and deployment requirements.
+- **How should RL agent performance and robustness be evaluated for real-world deployment?** What methodologies should be used to compare RL with other approaches?
+- **How can compliance with application requirements be ensured?** What are the key challenges and trade-offs in terms of performance, complexity, and robustness?
+- **How can we develop a common language to communicate effectively with decision-makers and domain experts?**
+- **What other practical challenges should practitioners consider when implementing RL in real systems?**
 
-Specifically, we invite the submissions in the area of multi-modal foundational models and resonsibilty but not limited to:
+### Example Domains
+Examples of industrial, societal, and critical systems include, but are not limited to:
 
-- Multi-modal Foundational Models (Discriminative and Generative) focusing on various modality such as Image / Video / Speech / Language (e.g., MLLMs, T2I or T2A diffusion models, etc.)
-- Reliability and security challenges
-- Adversarial attacks on multi-modal models
-- Training time strategy to ensure responsible behaviour
-- Data centric perspective for reliable models
-- Ethics, risks, and fairness of multi-modal models
-- Various multi-modal training/inference/evaluation efficiency aspects (e.g., handingling large resolution images/videos, long context video understanding, long-horizon high-res video generation) 
-- Other responsibility aspects such as memorization, hallucinations, copyright, etc.
-- **(Special track) Creating community guidelines for responsible design of next generation of foundational models**
-- **(Special track) Position papers on the theme of the workshop**
+- Industrial processes
+- Transportation systems
+- Electricity and energy
+- Logistics
+- Healthcare
+- Finance
+- ...
 
-# Important Dates
+### What Is Insightful Experience?
+Insightful experiences include observations, lessons learned, and best practices derived from deploying—or attempting to deploy—an RL agent in a real system. These practical insights, gathered from both successes and failures, should contribute to answering the workshop’s main questions.
 
-- Submission Deadline: <s>September 14, 2024, AoE (UTC-12)</s> **Sep 20 2024 11:59AM UTC-0**
-- Author Notification: <s>October 14, 2024, AoE (UTC-12)</s> **October 9, 2024, AoE (UTC-12)**
-- Camera-ready due: November 9, 2024, AoE (UTC-12)
+---
 
+## Submission Site
+**Coming soon**
 
-**Double-blind reviewing:** The reviewing process will be double blind. Authors are responsible for anonymizing submissions. In particular, author names,  affiliations, and acknowledgements should not be included in your submission. You should avoid providing any identifying information (even in the supplementary material).
+---
 
-**Dual-submission policy:** Submissions to this workshop is non-archival. We welcome submissions of ongoing and unpublished work, including papers that are under review at any venue. **Work that have been previously published or accepted for publication at any venue will not be considered**. Policy on dual submissions applies for the entire duration of the reviewing process.
+## Specifications and Template
+
+We accept contributions ranging from **2 to 8 pages** (excluding references) to accommodate different types of work. Please follow the **RLC submission format** available at **[ADD LINK TO TEMPLATE]**. The cover page is not mandatory.
+
+---
+
+## Important Dates
+
+- **Submission Deadline:** May 30, 2025 (AoE, UTC-12)
+- **Author Notification:** June 13, 2025 (AoE, UTC-12)
+- **Camera-ready Deadline:** June 27, 2025 (AoE, UTC-12)
+
+---
+
+## Submission Policy
+
+### Double-Blind Reviewing
+
+The reviewing process will be **double-blind**, meaning authors must anonymize their submissions. Author names, affiliations, and acknowledgments should not be included. While identifying information should generally be avoided, we acknowledge that anonymization may be challenging for submissions reporting insights and experiences. In such cases, we will apply flexibility when justified by the relevance and value of the contribution.
+
+### Dual-Submission Policy
+
+Submissions to this workshop are **non-archival**, meaning we welcome ongoing and unpublished work, including papers under review at other venues. However:
+- Submissions focused on analysis, reviews, or new methods applied to well-established benchmarks **must not have been previously published or accepted at any venue**.
+- Submissions reporting **insightful experiences or new applications** are welcome even if previously published in **2024 or 2025**.
+
+---
+
