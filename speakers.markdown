@@ -102,7 +102,7 @@ permalink: /speakers/
                class="speaker-image"/>
         </td>
         <td class="speaker-bio">
-          <p><b>Jorge Montalvo</b>: .</p>
+          <p><b>Jorge Montalvo</b>: Jorge Montalvo is a Research engineer at Centrica, focusing on developing demand response solutions using state of the art machine learning models and operations research. He is also a core team member of the Climate Change AI organization where he manages the Power Systems Working Group.</p>
         </td>
       </tr>
     </table>
