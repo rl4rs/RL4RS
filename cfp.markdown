@@ -23,6 +23,7 @@ Examples of industrial, societal, and critical systems include, but are not limi
 - Logistics
 - Healthcare
 - Finance
+- news recommendations
 - ...
 
 ### What Is Insightful Experience?
