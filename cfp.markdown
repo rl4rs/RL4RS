@@ -27,9 +27,9 @@ Examples of industrial, societal, and critical systems include, but are not limi
 - ...
 
 ### What Is Insightful Experience?
-Insightful experiences include observations, lessons learned, and best practices derived from deploying—or attempting to deploy—an RL agent in a real system. These practical insights, gathered from both successes and failures, should contribute to answering the workshop’s main questions.
-
-- Accepted papers will be presented during poster sessions. The authors of exceptional submissions will be invited to take part in the panel.
+Insightful experiences include observations, lessons learned, and best practices derived from deploying—or attempting to deploy—an RL agent in a real system. 
+These practical insights, gathered from both successes and failures, should contribute to answering the workshop’s main questions. 
+**Accepted papers will be presented during poster sessions. The authors of exceptional submissions will be invited to take part in the panel.**
 ---
 
 ## Submission Site
