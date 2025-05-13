@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a08ba184-33d7-48e9-8a1a-746714e46c14" name="mila">
+        <fileTransfer rootFolder="/home/mila/n/nekoeiha" accessType="SFTP" host="login-4.login.server.mila.quebec" port="2222" sshConfigId="19ce3203-31c4-4c6c-a647-067296d09d04" sshConfig="nekoeiha@login-4.login.server.mila.quebec:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
