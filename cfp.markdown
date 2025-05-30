@@ -47,7 +47,7 @@ We accept contributions ranging from **2 to 8 pages** (excluding references) to 
 
 ## Important Dates
 
-- **Submission Deadline:** ~~May 30, 2025 (AoE, UTC-12)~~June 03, 2025 (AoE, UTC-12)
+- **Submission Deadline:** ~~May 30, 2025 (AoE, UTC-12)~~ June 03, 2025 (AoE, UTC-12)
 - **Author Notification:** June 13, 2025 (AoE, UTC-12)
 - **Camera-ready Deadline:** June 27, 2025 (AoE, UTC-12)
 
