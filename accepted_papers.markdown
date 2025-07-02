@@ -16,21 +16,16 @@ permalink: /accepted_papers/
   background: transparent;
   line-height: 1.2;
 }
-.tag-energy         { color: #205375; border: 1px solid #205375; }   /* deep blue */
-.tag-healthcare     { color: #B0413E; border: 1px solid #B0413E; }   /* muted red */
-.tag-offline        { color: #5C5470; border: 1px solid #5C5470; }   /* slate purple */
-.tag-software       { color: #3A6B35; border: 1px solid #3A6B35; }   /* olive green */
-.tag-system         { color: #8C6A5D; border: 1px solid #8C6A5D; }   /* taupe */
-.tag-industry       { color: #6C757D; border: 1px solid #6C757D; }   /* muted steel */
-.tag-hardware       { color: #495867; border: 1px solid #495867; }   /* blue-grey */
-.tag-vision         { color: #227C9D; border: 1px solid #227C9D; }   /* teal blue */
-.tag-controls       { color: #4F6D7A; border: 1px solid #4F6D7A; }   /* slate blue */
-.tag-selfdriving    { color: #7D5A5A; border: 1px solid #7D5A5A; }   /* muted brown */
-.tag-finance        { color: #3E7CB1; border: 1px solid #3E7CB1; }   /* steel blue */
-.tag-recommender    { color: #A68A64; border: 1px solid #A68A64; }   /* muted gold */
-.tag-rl             { color: #7B8FA1; border: 1px solid #7B8FA1; }   /* grey blue */
-.tag-supply         { color: #5B9279; border: 1px solid #5B9279; }   /* muted green */
-.tag-logistics      { color: #B2996E; border: 1px solid #B2996E; }   /* sand brown */
+.tag-energy      { color: #227C70; border: 1px solid #227C70; }   /* teal green */
+.tag-healthcare  { color: #B0413E; border: 1px solid #B0413E; }   /* muted red */
+.tag-offline     { color: #6C3483; border: 1px solid #6C3483; }   /* muted purple */
+.tag-industry    { color: #495057; border: 1px solid #495057; }   /* slate grey */
+.tag-hardware    { color: #3E5C76; border: 1px solid #3E5C76; }   /* blue-grey */
+.tag-vision      { color: #1B98E0; border: 1px solid #1B98E0; }   /* bright blue */
+.tag-selfdriving { color: #7D5A5A; border: 1px solid #7D5A5A; }   /* muted brown */
+.tag-finance     { color: #5A189A; border: 1px solid #5A189A; }   /* deep purple */
+.tag-recommender { color: #A68A64; border: 1px solid #A68A64; }   /* muted gold */
+.tag-supply      { color: #D97706; border: 1px solid #D97706; }   /* muted orange */
 </style>
 
 # Accepted Papers
@@ -70,10 +65,10 @@ Here are the papers accepted to RLC 2025 Workshop on Practical Insights into RL 
 11. ["Reinforcement Learning for Debt Pricing: A Case Study in Financial Services"](https://openreview.net/forum?id=1cfG46owm8) <span class="paper-tag tag-finance">Finance</span>  
     Bruno Brandão, Luana Guedes Barros Martins, Bryan Lincoln Marques de Oliveira, Murilo Lopes da Luz, Eduardo Garcia, Luckeciano Carvalho Melo, Marcos Vinicius da Silva, Renato Gnecco Avelar, Arlindo Rodrigues Galvão Filho, Anderson Da Silva Soares, Telma Woerle de Lima Soares
 
-12. ["Scalable Tree Search over Graphs with Learned Action Pruning for Power Grid"](https://openreview.net/forum?id=SaY2IgSsDK) <span class="paper-tag tag-industry">Industrial Control</span> <span class="paper-tag tag-energy">Energy</span>  
+12. ["Scalable Tree Search over Graphs with Learned Action Pruning for Power Grid"](https://openreview.net/forum?id=SaY2IgSsDK) <span class="paper-tag tag-energy">Energy</span>  
     Florence Cloutier, Cyrus Neary, Adriana Hugessen, Viktor Todosijević, Zina Kamel, Glen Berseth
 
-13. ["From Game-Playing to Self-Driving: Comparing AlphaGo vs AlphaZero Approaches for Driving"](https://openreview.net/forum?id=VvwlMIj4x2) <span class="paper-tag tag-industry">Industrial Control</span> <span class="paper-tag tag-selfdriving">Self-driving</span>  
+13. ["From Game-Playing to Self-Driving: Comparing AlphaGo vs AlphaZero Approaches for Driving"](https://openreview.net/forum?id=VvwlMIj4x2) <span class="paper-tag tag-selfdriving">Self-driving</span>  
     Ellen Xu, Robert J. Moss, Mykel Kochenderfer
 
 14. ["SAM2RL: Towards Reinforcement Learning Memory Control in Segment Anything Model 2"](https://openreview.net/forum?id=nikfkVtih1) <span class="paper-tag tag-vision">Vision</span>  
@@ -85,7 +80,7 @@ Here are the papers accepted to RLC 2025 Workshop on Practical Insights into RL 
 16. ["Exploring Search for FPGA Placement using RL"](https://openreview.net/forum?id=nvge2HodpL) <span class="paper-tag tag-hardware">Hardware</span>  
     Shang Wang, Owen Randall, Matthew E. Taylor
 
-17. ["Closed-Loop Reinforcement Learning for Short-Term Load Forecasting over a REST API Framework"](https://openreview.net/forum?id=VgktJVPpHj) <span class="paper-tag tag-energy">Energy</span> <span class="paper-tag tag-software">Software</span>  
+17. ["Closed-Loop Reinforcement Learning for Short-Term Load Forecasting over a REST API Framework"](https://openreview.net/forum?id=VgktJVPpHj) <span class="paper-tag tag-energy">Energy</span> 
     Julien Guité-Vinet, Alexandre Blondin Massé, Éric Beaudry, Arnaud Zinflou
 
 18. ["A Clean Slate for Offline Reinforcement Learning"](https://openreview.net/forum?id=5fhR3mlDF3) <span class="paper-tag tag-offline">Offline RL</span>  
