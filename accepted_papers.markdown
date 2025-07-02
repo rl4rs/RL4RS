@@ -18,7 +18,7 @@ permalink: /accepted_papers/
 }
 .tag-energy      { color: #227C70; border: 1px solid #227C70; }   /* teal green */
 .tag-healthcare  { color: #B0413E; border: 1px solid #B0413E; }   /* muted red */
-.tag-offline     { color: #6C3483; border: 1px solid #6C3483; }   /* muted purple */
+.tag-rl     { color: #6C3483; border: 1px solid #6C3483; }   /* muted purple */
 .tag-industry    { color: #495057; border: 1px solid #495057; }   /* slate grey */
 .tag-hardware    { color: #3E5C76; border: 1px solid #3E5C76; }   /* blue-grey */
 .tag-vision      { color: #1B98E0; border: 1px solid #1B98E0; }   /* bright blue */
@@ -50,7 +50,7 @@ Here are the papers accepted to RLC 2025 Workshop on Practical Insights into RL 
 6. ["Off by a Beat: Temporal Misalignment in Offline RL for Healthcare"](https://openreview.net/forum?id=yRMY2a1rjR) <span class="paper-tag tag-healthcare">Healthcare</span>  
    Shengpu Tang, Jiayu Yao, Jenna Wiens, Sonali Parbhoo
 
-7. ["FastDP: Deployable Diffusion Policy with Fast Inference Speed"](https://openreview.net/forum?id=844o68yBS4) <span class="paper-tag tag-rl">Fast Inference</span>  
+7. ["FastDP: Deployable Diffusion Policy with Fast Inference Speed"](https://openreview.net/forum?id=844o68yBS4) <span class="paper-tag tag-rl">RL</span>  
    Chang Shi, Amy Zhang
 
 8. ["Personalizing Fairness: Adaptive RL with User Diversity Preference for Recommender Systems"](https://openreview.net/forum?id=p9ACyszcwf) <span class="paper-tag tag-recommender">Recommender systems</span>  
@@ -77,13 +77,13 @@ Here are the papers accepted to RLC 2025 Workshop on Practical Insights into RL 
 15. ["Between Life and Death: Examining Sparse Reward Designs in Healthcare RL"](https://openreview.net/forum?id=B8TLToCmfi) <span class="paper-tag tag-healthcare">Healthcare</span>  
     Yuxuan Shi, Matthew Lafrance, Shengpu Tang
 
-16. ["Exploring Search for FPGA Placement using RL"](https://openreview.net/forum?id=nvge2HodpL) <span class="paper-tag tag-hardware">Hardware</span>  
+16. ["Exploring Search for FPGA Placement using RL"](https://openreview.net/forum?id=nvge2HodpL) <span class="paper-tag tag-hardware">Hardware Design</span>  
     Shang Wang, Owen Randall, Matthew E. Taylor
 
 17. ["Closed-Loop Reinforcement Learning for Short-Term Load Forecasting over a REST API Framework"](https://openreview.net/forum?id=VgktJVPpHj) <span class="paper-tag tag-energy">Energy</span> 
     Julien Guité-Vinet, Alexandre Blondin Massé, Éric Beaudry, Arnaud Zinflou
 
-18. ["A Clean Slate for Offline Reinforcement Learning"](https://openreview.net/forum?id=5fhR3mlDF3) <span class="paper-tag tag-offline">Offline RL</span>  
+18. ["A Clean Slate for Offline Reinforcement Learning"](https://openreview.net/forum?id=5fhR3mlDF3) <span class="paper-tag tag-rl">RL</span>  
     Matthew Thomas Jackson, Uljad Berdica, Jarek Luca Liesen, Shimon Whiteson, Jakob Nicolaus Foerster
 
 19. ["Adaptive PID Control for Setpoint Tracking Using Reinforcement Learning: A Case Study for Blood-Glucose Control"](https://openreview.net/forum?id=RzhCmF5oI0) <span class="paper-tag tag-healthcare">Healthcare</span>  
