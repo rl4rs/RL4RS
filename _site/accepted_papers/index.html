@@ -95,89 +95,118 @@
         </nav></div>
 </header><main class="page-content" aria-label="Content">
         <div class="wrapper">
-            <h1 id="accepted-papers">Accepted Papers</h1>
+            <style>
+.paper-tag {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 0.93em;
+  margin-left: 6px;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: transparent;
+  line-height: 1.2;
+}
+.tag-energy         { color: #205375; border: 1px solid #205375; }   /* deep blue */
+.tag-healthcare     { color: #B0413E; border: 1px solid #B0413E; }   /* muted red */
+.tag-offline        { color: #5C5470; border: 1px solid #5C5470; }   /* slate purple */
+.tag-software       { color: #3A6B35; border: 1px solid #3A6B35; }   /* olive green */
+.tag-system         { color: #8C6A5D; border: 1px solid #8C6A5D; }   /* taupe */
+.tag-industry       { color: #6C757D; border: 1px solid #6C757D; }   /* muted steel */
+.tag-hardware       { color: #495867; border: 1px solid #495867; }   /* blue-grey */
+.tag-vision         { color: #227C9D; border: 1px solid #227C9D; }   /* teal blue */
+.tag-controls       { color: #4F6D7A; border: 1px solid #4F6D7A; }   /* slate blue */
+.tag-selfdriving    { color: #7D5A5A; border: 1px solid #7D5A5A; }   /* muted brown */
+.tag-finance        { color: #3E7CB1; border: 1px solid #3E7CB1; }   /* steel blue */
+.tag-recommender    { color: #A68A64; border: 1px solid #A68A64; }   /* muted gold */
+.tag-rl             { color: #7B8FA1; border: 1px solid #7B8FA1; }   /* grey blue */
+.tag-supply         { color: #5B9279; border: 1px solid #5B9279; }   /* muted green */
+.tag-logistics      { color: #B2996E; border: 1px solid #B2996E; }   /* sand brown */
+</style>
+
+<h1 id="accepted-papers">Accepted Papers</h1>
 
 <p>Here are the papers accepted to RLC 2025 Workshop on Practical Insights into RL for Real Systems:</p>
 
 <ol>
   <li>
-    <p><a href="https://openreview.net/forum?id=iSrFjVm6A3">“Industrial insights of practical deep reinforcement learning projects”</a><br />
+    <p><a href="https://openreview.net/forum?id=iSrFjVm6A3">“Industrial insights of practical deep reinforcement learning projects”</a> <span class="paper-tag tag-energy">Energy</span><br />
 Antoine Plissonneau-Duquène, Hugo Massonnat, Elie Kadoche, Louis Verny, Florence Carton</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=8wgktKxkdy">“Exploration for the Efficient Deployment of Reinforcement Learning Agents”</a><br />
+    <p><a href="https://openreview.net/forum?id=8wgktKxkdy">“Exploration for the Efficient Deployment of Reinforcement Learning Agents”</a> <span class="paper-tag tag-supply">Supply Chain Management</span><br />
 Max Rudolph, Siddhant Agarwal, Omer Gottesman, Amy Zhang, Akhil Bagaria, Sohrab Andaz, Udaya Ghai, Carson Eisenach</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=3RvX1B4H65">“Dynamics Models for Offline Hyperparameter Selection in Water Treatment”</a><br />
+    <p><a href="https://openreview.net/forum?id=3RvX1B4H65">“Dynamics Models for Offline Hyperparameter Selection in Water Treatment”</a> <span class="paper-tag tag-industry">Industrial Control</span><br />
 Jordan Coblin, Han Wang, Martha White, Adam White</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=NZZjTO177Z">“Data Center Cooling System Optimization Using Offline Reinforcement Learning”</a><br />
+    <p><a href="https://openreview.net/forum?id=NZZjTO177Z">“Data Center Cooling System Optimization Using Offline Reinforcement Learning”</a> <span class="paper-tag tag-energy">Energy</span><br />
 Xianyuan Zhan, Xiangyu Zhu, Peng Cheng, Xiao Hu, Ziteng He, Hanfei Geng, Jichao Leng, Huiwen Zheng, Chenhui Liu, Tianshun Hong, Yan Liang, Yunxin Liu, Feng Zhao</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=VnoIY8IKUU">“Towards Understanding the Challenges of Applying Reinforcement Learning to the Power Grid”</a><br />
+    <p><a href="https://openreview.net/forum?id=VnoIY8IKUU">“Towards Understanding the Challenges of Applying Reinforcement Learning to the Power Grid”</a> <span class="paper-tag tag-energy">Energy</span><br />
 Matthew Kyle Schlegel, Martha White, Mostafa Farrokhabadi, Matthew E. Taylor</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=yRMY2a1rjR">“Off by a Beat: Temporal Misalignment in Offline RL for Healthcare”</a><br />
+    <p><a href="https://openreview.net/forum?id=yRMY2a1rjR">“Off by a Beat: Temporal Misalignment in Offline RL for Healthcare”</a> <span class="paper-tag tag-healthcare">Healthcare</span><br />
 Shengpu Tang, Jiayu Yao, Jenna Wiens, Sonali Parbhoo</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=844o68yBS4">“FastDP: Deployable Diffusion Policy with Fast Inference Speed”</a><br />
+    <p><a href="https://openreview.net/forum?id=844o68yBS4">“FastDP: Deployable Diffusion Policy with Fast Inference Speed”</a> <span class="paper-tag tag-rl">Fast Inference</span><br />
 Chang Shi, Amy Zhang</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=p9ACyszcwf">“Personalizing Fairness: Adaptive RL with User Diversity Preference for Recommender Systems”</a><br />
+    <p><a href="https://openreview.net/forum?id=p9ACyszcwf">“Personalizing Fairness: Adaptive RL with User Diversity Preference for Recommender Systems”</a> <span class="paper-tag tag-recommender">Recommender systems</span><br />
 Luana Guedes Barros Martins, Bryan Lincoln Marques de Oliveira, Bruno Brandão, Telma Woerle de Lima Soares, Marlesson Santana</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=swaYG5XI6G">“Exploring Time-Step Size in Reinforcement Learning for Sepsis Treatment”</a><br />
+    <p><a href="https://openreview.net/forum?id=swaYG5XI6G">“Exploring Time-Step Size in Reinforcement Learning for Sepsis Treatment”</a> <span class="paper-tag tag-healthcare">Healthcare</span><br />
 Yingchuan Sun, Shengpu Tang</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=qjFcxWNVK3">“Transparent Uncertainty Quantification for Offline Reinforcement Learning in Chlor-Alkali Control”</a><br />
+    <p><a href="https://openreview.net/forum?id=qjFcxWNVK3">“Transparent Uncertainty Quantification for Offline Reinforcement Learning in Chlor-Alkali Control”</a> <span class="paper-tag tag-industry">Industrial Control</span><br />
 Jesse Thibodeau, Étienne Tétreault-Pinard, Said Berriah</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=1cfG46owm8">“Reinforcement Learning for Debt Pricing: A Case Study in Financial Services”</a><br />
+    <p><a href="https://openreview.net/forum?id=1cfG46owm8">“Reinforcement Learning for Debt Pricing: A Case Study in Financial Services”</a> <span class="paper-tag tag-finance">Finance</span><br />
 Bruno Brandão, Luana Guedes Barros Martins, Bryan Lincoln Marques de Oliveira, Murilo Lopes da Luz, Eduardo Garcia, Luckeciano Carvalho Melo, Marcos Vinicius da Silva, Renato Gnecco Avelar, Arlindo Rodrigues Galvão Filho, Anderson Da Silva Soares, Telma Woerle de Lima Soares</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=SaY2IgSsDK">“Scalable Tree Search over Graphs with Learned Action Pruning for Power Grid”</a><br />
+    <p><a href="https://openreview.net/forum?id=SaY2IgSsDK">“Scalable Tree Search over Graphs with Learned Action Pruning for Power Grid”</a> <span class="paper-tag tag-industry">Industrial Control</span> <span class="paper-tag tag-energy">Energy</span><br />
 Florence Cloutier, Cyrus Neary, Adriana Hugessen, Viktor Todosijević, Zina Kamel, Glen Berseth</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=VvwlMIj4x2">“From Game-Playing to Self-Driving: Comparing AlphaGo vs AlphaZero Approaches for Driving”</a><br />
+    <p><a href="https://openreview.net/forum?id=VvwlMIj4x2">“From Game-Playing to Self-Driving: Comparing AlphaGo vs AlphaZero Approaches for Driving”</a> <span class="paper-tag tag-industry">Industrial Control</span> <span class="paper-tag tag-selfdriving">Self-driving</span><br />
 Ellen Xu, Robert J. Moss, Mykel Kochenderfer</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=nikfkVtih1">“SAM2RL: Towards Reinforcement Learning Memory Control in Segment Anything Model 2”</a><br />
+    <p><a href="https://openreview.net/forum?id=nikfkVtih1">“SAM2RL: Towards Reinforcement Learning Memory Control in Segment Anything Model 2”</a> <span class="paper-tag tag-vision">Vision</span><br />
 Alen Adamyan, Tomáš Čížek, Matej Straka, Klara Janouskova, Martin Schmid</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=B8TLToCmfi">“Between Life and Death: Examining Sparse Reward Designs in Healthcare RL”</a><br />
+    <p><a href="https://openreview.net/forum?id=B8TLToCmfi">“Between Life and Death: Examining Sparse Reward Designs in Healthcare RL”</a> <span class="paper-tag tag-healthcare">Healthcare</span><br />
 Yuxuan Shi, Matthew Lafrance, Shengpu Tang</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=nvge2HodpL">“Exploring Search for FPGA Placement using RL”</a><br />
+    <p><a href="https://openreview.net/forum?id=nvge2HodpL">“Exploring Search for FPGA Placement using RL”</a> <span class="paper-tag tag-hardware">Hardware</span><br />
 Shang Wang, Owen Randall, Matthew E. Taylor</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=VgktJVPpHj">“Closed-Loop Reinforcement Learning for Short-Term Load Forecasting over a REST API Framework”</a><br />
+    <p><a href="https://openreview.net/forum?id=VgktJVPpHj">“Closed-Loop Reinforcement Learning for Short-Term Load Forecasting over a REST API Framework”</a> <span class="paper-tag tag-energy">Energy</span> <span class="paper-tag tag-software">Software</span><br />
 Julien Guité-Vinet, Alexandre Blondin Massé, Éric Beaudry, Arnaud Zinflou</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=5fhR3mlDF3">“A Clean Slate for Offline Reinforcement Learning”</a><br />
+    <p><a href="https://openreview.net/forum?id=5fhR3mlDF3">“A Clean Slate for Offline Reinforcement Learning”</a> <span class="paper-tag tag-offline">Offline RL</span><br />
 Matthew Thomas Jackson, Uljad Berdica, Jarek Luca Liesen, Shimon Whiteson, Jakob Nicolaus Foerster</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=RzhCmF5oI0">“Adaptive PID Control for Setpoint Tracking Using Reinforcement Learning: A Case Study for Blood-Glucose Control”</a><br />
+    <p><a href="https://openreview.net/forum?id=RzhCmF5oI0">“Adaptive PID Control for Setpoint Tracking Using Reinforcement Learning: A Case Study for Blood-Glucose Control”</a> <span class="paper-tag tag-healthcare">Healthcare</span><br />
 Anna Hakhverdyan, Golnaz Mesbahi, Martha White</p>
   </li>
   <li>
-    <p><a href="https://openreview.net/forum?id=J6I4g7wkE9">“Efficient Management of Day-Ahead Energy Markets via Multi-Agent Reinforcement Learning - a Hybrid Model Case Study”</a><br />
+    <p><a href="https://openreview.net/forum?id=J6I4g7wkE9">“Efficient Management of Day-Ahead Energy Markets via Multi-Agent Reinforcement Learning - a Hybrid Model Case Study”</a> <span class="paper-tag tag-energy">Energy</span><br />
 Matan Levy, Sarah Keren, Itay Segev, Alexander Tuisov</p>
   </li>
 </ol>
