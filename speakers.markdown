@@ -97,12 +97,12 @@ permalink: /speakers/
     <table class="speaker-table">
       <tr>
         <td style="width: 200px;">
-          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/Jorge_Montalvo_Arvizu.jpeg?raw=true" 
-               alt="Jorge Montalvo" 
+          <img src="https://github.com/rl4rs/RL4RS/blob/main/assets/images/eugene_vinitsky.jpg?raw=true" 
+               alt="Eugene Vinitsky" 
                class="speaker-image"/>
         </td>
         <td class="speaker-bio">
-          <p><b>Jorge Montalvo</b>: Jorge Montalvo is a Research engineer at Centrica, focusing on developing demand response solutions using state of the art machine learning models and operations research. He is also a core team member of the Climate Change AI organization where he manages the Power Systems Working Group.</p>
+          <p><b>Eugene Vinitsky</b>: Eugene Vinitsky is an Assistant Professor at NYU Tandon in the Department of Civil Engineering. He holds a PhD in control from UC Berkeley, where he studied under Alexandre Bayen. His research focuses on enabling complex, human-like behavior to emerge from unsupervised interactions among groups of learning agents, with applications in robotics and transportation. </p>
         </td>
       </tr>
     </table>
